@@ -1,0 +1,78 @@
+/* Default styles for #glass */
+#glass {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 70px;
+    margin: 0 auto; /* Center the element horizontally */
+    max-width: 100%; /* Ensure it doesn't overflow on smaller screens */
+    background: rgba(33, 211, 160, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  /* Styles for #Cm, #fa, and #KEL */
+  #Cm, #fa, #KEL {
+    width: 8rem;
+  }
+  
+  /* Styles for #CG, #F, and #kel */
+  #CG, #F, #kel {
+    padding: 5px;
+    margin: 3px;
+  }
+  
+  /* Styles for buttons */
+  button {
+    /* Your button styles here */
+    padding: 5px 10px; /* Adjust padding for better touch interaction */
+    font-size: 14px; /* Slightly increase font size for readability */
+  
+    /* Ensure buttons take up full width on smaller screens */
+    width: 10%;
+    margin: 3px; /* Add spacing between buttons vertically */
+  }
+  
+  /* Styles for h1 */
+  h1 {
+    /* Your h1 styles here */
+    text-align: center; /* Center the heading text */
+    margin: 20px auto; /* Center the heading horizontally with some top margin */
+    font-size: 24px; /* Increase font size for better readability on smaller screens */
+  }
+  
+  /* Media query for screens smaller than 768px */
+  @media (max-width: 768px) {
+    /* Adjust styles for #glass, buttons, and h1 */
+    #glass {
+      width: 100%; /* Make the #glass element slightly narrower on small screens */
+    }
+  
+    button {
+      font-size: 12px; /* Further reduce font size for smaller screens */
+    }
+  
+    h1 {
+      font-size: 20px; /* Reduce font size for smaller screens */
+    }
+  }
+  @media (max-width: 428px) {
+    /* Adjust styles for #glass, buttons, and h1 */
+    #glass {
+      width: 90%; /* Make the #glass element slightly narrower on small screens */
+    }
+  
+    button {
+      font-size: 10px; /* Further reduce font size for smaller screens */
+    }
+  
+    h1 {
+      font-size: 12px; /* Reduce font size for smaller screens */
+    }
+  }
+  

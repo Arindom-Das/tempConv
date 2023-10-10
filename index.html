@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<title>Rough</title>
+<body><h1>TEMPERATURE CONVERTER</h1>
+
+<div id="glass">
+
+    <div id="CG">
+        <label id="labelo">Centigrade </label><br>
+    <input placeholder="0" type="text" oninput="this.value = this.value.replace(/[^-0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="cm" id="Cm"> &degC
+    </div>
+
+    <div id="F">
+        <label id="labelo">Fahrenheit </label"><br>
+        <input placeholder="0" type="text" oninput="this.value = this.value.replace(/[^-0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="f" id="fa"> F
+    </div>
+
+    <div id="kel">
+        <label id="labelo">Kelvin </label"><br>
+        <input placeholder="0" type="text" oninput="this.value = this.value.replace(/[^-0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="K" id="KEL"> K
+    </div>
+
+    <br>
+
+    <button type="button" id="submt">Calculate</button>
+    <button type="button" id="resetButton">Reset</button>
+
+</div>
+
+    <script src="index.js"></script>
+</body>
