@@ -64,11 +64,15 @@
   @media (max-width: 428px) {
     /* Adjust styles for #glass, buttons, and h1 */
     #glass {
-      width: 90%; /* Make the #glass element slightly narrower on small screens */
+      display:grid;
+      width: 50%;
+      height: 50%; /* Make the #glass element slightly narrower on small screens */
     }
   
     button {
-      font-size: 10px; /* Further reduce font size for smaller screens */
+      width:50%;
+      padding: 2%;
+       /* Further reduce font size for smaller screens */
     }
   
     h1 {
